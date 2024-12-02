@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  tomcat:
+    threads:
+      max: 200
+    max-connections: 8192
+    accept-count: 100 
+
+spring:
+  application:
+    name: cpu_performance
